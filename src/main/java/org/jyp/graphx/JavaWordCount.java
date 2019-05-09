@@ -18,6 +18,7 @@ public class JavaWordCount {
 //			System.err.println("Usage: JavaWordCount <file>");
 //			System.exit(1);
 //		}
+
 		String path = "file:///D:/git/spark-graphx/README.md";
 		SparkConf conf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]");
 		SparkContext sc = new SparkContext(conf);
